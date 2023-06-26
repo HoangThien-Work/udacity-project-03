@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: hoangthiendocker/frontend:v2
+        image: hoangthiendocker/frontend:v3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
